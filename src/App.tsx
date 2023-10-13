@@ -1,3 +1,4 @@
+import Footer from "./components/general/Footer";
 import SocialProof from "./components/home/SocialProof";
 import Testimonial from "./components/home/Testimonial";
 import WhyChoose from "./components/home/WhyChoose/WhyChoose";
@@ -8,6 +9,7 @@ function App() {
       <SocialProof />
       <WhyChoose />
       <Testimonial />
+      <Footer />
     </main>
   );
 }

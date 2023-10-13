@@ -1,2 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 @import "./base.scss";
+
+::-webkit-scrollbar {
+  width: 1rem;
+
+  &-track {
+    background-color: $white;
+    border-radius: 1rem;
+    margin: 1rem;
+  }
+
+  &-thumb {
+    border-radius: 1rem;
+    background-color: $gray-500;
+  }
+}
