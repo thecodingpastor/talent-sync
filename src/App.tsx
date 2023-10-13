@@ -1,11 +1,14 @@
+import SocialProof from "./components/home/SocialProof";
+import Testimonial from "./components/home/Testimonial";
+import WhyChoose from "./components/home/WhyChoose/WhyChoose";
+
 function App() {
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tenetur
-      sunt dolorum possimus asperiores quaerat suscipit, quas ipsam hic
-      doloribus accusantium sed veritatis voluptatem dicta ullam nemo ducimus
-      doloremque nobis!
-    </div>
+    <main>
+      <SocialProof />
+      <WhyChoose />
+      <Testimonial />
+    </main>
   );
 }
 

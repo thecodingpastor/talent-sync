@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 *,
 *::after,
 *::before {
@@ -10,7 +12,6 @@
 
 svg {
   cursor: pointer;
-  // color: $color-dark;
 }
 
 a {
@@ -23,13 +24,14 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 1.7;
-  color: $color-dark;
-  background-color: $color-light;
+  line-height: 28px;
+  background-color: $white;
   overflow-x: hidden;
+  max-width: 130rem;
+  margin: 0 auto;
 }
 
 li {

@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+
+.Container {
+  background-color: $gray-100;
+  padding: 7rem 5rem;
+  display: flex;
+  gap: 4rem;
+
+  & > div {
+    flex: 1;
+  }
+
+  figure {
+    width: 11rem;
+    height: 3rem;
+  }
+
+  .Stars {
+    margin-top: 4rem;
+    display: flex;
+    gap: 0.5rem;
+
+    img {
+      width: 1.8rem;
+    }
+  }
+}
