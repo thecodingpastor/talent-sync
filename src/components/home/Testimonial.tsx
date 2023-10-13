@@ -3,6 +3,7 @@ import Star from "../../assets/svgs/filled-star.svg";
 import Sarah from "../../assets/images/sarah.png";
 import ArrowLeft from "../../assets/icons/arrow-left.svg";
 import ArrowRight from "../../assets/icons/arrow-right.svg";
+import Grid from "../../assets/images/grid.png";
 
 import classes from "./Testimonial.module.scss";
 
@@ -42,11 +43,9 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className={classes.Right}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum enim
-        itaque dolores consequatur iusto quis ipsam. Earum maxime magni vel modi
-        at, eveniet nisi dolore in natus nulla dolorem porro.
-      </div>
+      <figure className={classes.Right}>
+        <img src={Grid} alt="Grid" />
+      </figure>
     </section>
   );
 };
