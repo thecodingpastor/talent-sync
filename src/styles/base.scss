@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  outline: 0;
+  border: none;
+}
+
+svg {
+  cursor: pointer;
+  // color: $color-dark;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: $color-dark;
+  background-color: $color-light;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+}
