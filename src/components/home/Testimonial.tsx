@@ -1,9 +1,9 @@
 import Shopify from "../../assets/svgs/shopify.svg";
-import Star from "../../assets/svgs/filled-star.svg";
 import Sarah from "../../assets/images/sarah.png";
 import ArrowLeft from "../../assets/icons/arrow-left.svg";
 import ArrowRight from "../../assets/icons/arrow-right.svg";
 import Grid from "../../assets/images/grid.webp";
+import FiveStars from "./FiveStars";
 
 import classes from "./Testimonial.module.scss";
 
@@ -14,11 +14,7 @@ const Testimonial = () => {
         <figure className={classes.Shopify}>
           <img src={Shopify} alt="Shopify Logo" />
         </figure>
-        <div className={classes.Stars}>
-          {Array.from({ length: 5 }, (_, index) => (
-            <img key={index} src={Star} alt="Star" />
-          ))}
-        </div>
+        <FiveStars style={{ marginTop: "4rem" }} />
         <p className={classes.Text}>
           ClearLink has upgraded our remote meetings. High-quality video, screen
           sharing, and top-notch security make it essential for our team.

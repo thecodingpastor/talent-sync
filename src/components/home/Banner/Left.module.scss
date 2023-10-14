@@ -1,0 +1,92 @@
+@import "../../../styles/variables.scss";
+
+.Container {
+  flex: 7;
+  padding-right: 1rem;
+
+  @media screen and (max-width: 860px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  h2 {
+    color: $gray-800;
+    letter-spacing: -1.5px;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 5rem;
+
+    @media screen and (max-width: 870px) {
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
+  }
+
+  p {
+    max-width: 50rem;
+    margin-top: 2rem;
+  }
+
+  .One {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    @media screen and (max-width: 891px) {
+      font-size: 1.4rem;
+    }
+
+    @media screen and (max-width: 860px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    figure {
+      width: 2rem;
+    }
+
+    h5 {
+      color: $blue-700;
+      font-size: 1.8rem;
+    }
+  }
+
+  .Btn {
+    padding: 0.8rem 1.6rem;
+  }
+
+  .Two {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    line-height: 0.4;
+
+    @media screen and (max-width: 860px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 4rem;
+    }
+
+    & ~ div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .In {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}

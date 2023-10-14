@@ -35,7 +35,7 @@ const Navbar = () => {
           ))}
         </ul>
         <Hamburger />
-        <div>
+        <div className={classes.Btn}>
           <ActionButton className={classes.Btn}>Talk to sales</ActionButton>
           <ActionButton className={classes.Btn} color="blue">
             Sign up for free

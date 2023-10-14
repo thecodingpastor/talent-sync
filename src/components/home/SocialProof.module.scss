@@ -1,6 +1,8 @@
 @import "../../styles/variables.scss";
 .Container {
   padding: 5rem 1rem;
+  max-width: 120rem;
+  margin: 0 auto;
 
   p {
     color: $gray-600;
