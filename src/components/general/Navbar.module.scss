@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+.Container {
+  background-color: $gray-100;
+  border-radius: 50rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 70rem;
+  margin: 2rem auto;
+  align-items: center;
+  height: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    color: $gray-900;
+  }
+
+  .Logo {
+    display: flex;
+    gap: 1rem;
+  }
+
+  ul {
+    display: flex;
+    // align-items: center;
+    gap: 1rem;
+  }
+
+  li {
+    color: $gray-500;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    // justify-content: center;
+    gap: 0.1rem;
+
+    figure {
+      width: 1.5rem;
+    }
+  }
+}
