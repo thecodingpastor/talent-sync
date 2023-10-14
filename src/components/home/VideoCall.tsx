@@ -1,5 +1,6 @@
 import Check from "../../assets/icons/check-circle.svg";
 import Call from "../../assets/images/call.webp";
+import ActionButton from "../general/ActionButton";
 
 import classes from "./VideoCall.module.scss";
 
@@ -25,8 +26,8 @@ const VideoCall = () => {
           ))}
         </ul>
         <div className={classes.Btns}>
-          <span>Talk to sales</span>
-          <span>Start your free trial</span>
+          <ActionButton>Talk to sales</ActionButton>
+          <ActionButton color="blue">Start your free trial</ActionButton>
         </div>
       </div>
       <figure className={classes.Right}>
