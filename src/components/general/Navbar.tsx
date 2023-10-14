@@ -1,7 +1,7 @@
 import ChevronDown from "../../assets/icons/chevron-down.svg";
-import Logo from "../../assets/svgs/logo.svg";
 import ActionButton from "./ActionButton";
 import Hamburger from "./Hamburger";
+import Logo from "./Logo";
 
 import classes from "./Navbar.module.scss";
 
@@ -16,12 +16,7 @@ const Navbar = () => {
   return (
     <nav className={classes.Container}>
       <div className={classes.Inner}>
-        <div className={classes.Logo}>
-          <figure>
-            <img src={Logo} alt="Clear Link Logo" />
-          </figure>
-          <h1>ClearLink.</h1>
-        </div>
+        <Logo />
         <ul>
           {list.map((item) => (
             <li key={item.title}>

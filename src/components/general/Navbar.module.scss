@@ -24,28 +24,6 @@
   display: flex;
   justify-content: space-between;
 
-  h1 {
-    font-weight: 400;
-    font-size: 2rem;
-    color: $gray-900;
-
-    @media screen and (max-width: 850px) {
-      font-size: 1.5rem;
-    }
-  }
-
-  .Logo {
-    display: flex;
-    gap: 1rem;
-    cursor: pointer;
-
-    img {
-      @media screen and (max-width: 850px) {
-        width: 2.2rem;
-      }
-    }
-  }
-
   ul {
     display: flex;
     gap: 1rem;
