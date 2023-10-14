@@ -1,3 +1,54 @@
+@import "../../styles/variables.scss";
+
 .Container {
-  //
+  border: 2px solid green;
+
+  section {
+    display: flex;
+    gap: 3rem;
+    padding: 6rem 3rem;
+  }
+  .Left,
+  .Right {
+    flex: 1;
+  }
+
+  h2 {
+    color: $gray-800;
+    letter-spacing: -1.5px;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 5rem;
+  }
+
+  p {
+    max-width: 50rem;
+    margin-top: 1rem;
+  }
+
+  .One {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    figure {
+      width: 2rem;
+    }
+
+    h5 {
+      color: $blue-700;
+      font-size: 1.8rem;
+    }
+  }
+
+  .Btn {
+    padding: 1.1rem 2.2rem;
+  }
 }
