@@ -1,6 +1,3 @@
-import PlusCircle from "../../assets/icons/plus-circle.svg";
-import MinusCircle from "../../assets/icons/minus-circle.svg";
-
 import classes from "./FAQs.module.scss";
 
 const faq = [
