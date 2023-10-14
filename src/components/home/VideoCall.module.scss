@@ -1,0 +1,117 @@
+@import "../../styles/variables.scss";
+
+.Container {
+  display: flex;
+  padding: 7rem 0rem;
+  overflow-x: hidden;
+
+  @media screen and (max-width: 670px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .Left,
+  .Right {
+    flex: 1;
+  }
+
+  .Left {
+    padding-left: 15rem;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 850px) {
+      padding-left: 7rem;
+    }
+
+    @media screen and (max-width: 750px) {
+      font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: 670px) {
+      padding-left: 1rem;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .Right {
+    margin-right: -7.5%;
+
+    @media screen and (max-width: 670px) {
+      margin: 0 auto;
+      max-width: 35rem;
+    }
+  }
+
+  h3 {
+    color: $gray-900;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    max-width: 45rem;
+
+    @media screen and (max-width: 750px) {
+      line-height: 3.5rem;
+      font-size: 2.5rem;
+      font-weight: 500;
+      max-width: 30rem;
+    }
+  }
+
+  ul {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  li {
+    color: $gray-600;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 400;
+    width: max-content;
+
+    @media screen and (max-width: 750px) {
+      font-size: 1.3rem;
+    }
+
+    figure {
+      width: 2rem;
+
+      @media screen and (max-width: 750px) {
+        width: 1.7;
+      }
+    }
+  }
+
+  .Btns {
+    display: flex;
+    margin-top: 2rem;
+
+    span {
+      border-radius: 2rem;
+      width: max-content;
+      padding: 0.3rem 1.8rem;
+      cursor: pointer;
+
+      @media screen and (max-width: 750px) {
+        font-size: 1.5rem;
+        padding: 0.1rem 1rem;
+      }
+
+      &:first-child {
+        color: $gray-900;
+        border: 1px solid $gray-400;
+        margin-right: 1rem;
+      }
+      &:last-child {
+        color: $white;
+        background-color: $blue-700;
+      }
+    }
+  }
+}

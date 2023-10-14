@@ -3,7 +3,7 @@ import Star from "../../assets/svgs/filled-star.svg";
 import Sarah from "../../assets/images/sarah.png";
 import ArrowLeft from "../../assets/icons/arrow-left.svg";
 import ArrowRight from "../../assets/icons/arrow-right.svg";
-import Grid from "../../assets/images/grid.png";
+import Grid from "../../assets/images/grid.webp";
 
 import classes from "./Testimonial.module.scss";
 
