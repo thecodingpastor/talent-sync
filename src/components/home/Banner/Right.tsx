@@ -5,7 +5,7 @@ import Mic from "../../../assets/icons/mic.svg";
 import Smile from "../../../assets/icons/smile.svg";
 import Message from "../../../assets/icons/message.svg";
 import Setting from "../../../assets/icons/settings.svg";
-import Group from "../../../assets/svgs/group.svg";
+import Group from "../../../assets/svgs/group.webp";
 
 import classes from "./Right.module.scss";
 
