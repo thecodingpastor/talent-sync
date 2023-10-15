@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/talent-sync/static/css/main.a6280513.css",
+    "main.css": "/talent-sync/static/css/main.7ecfdab7.css",
     "main.js": "/talent-sync/static/js/main.11b077d2.js",
     "static/media/call.webp": "/talent-sync/static/media/call.6032c8f42bfc66e9c80a.webp",
     "static/media/rows.svg": "/talent-sync/static/media/rows.203e7f86148b499234d1.svg",
@@ -41,11 +41,11 @@
     "static/media/chevron-down.svg": "/talent-sync/static/media/chevron-down.c9e2c3052d73788059ccfe009f1a22be.svg",
     "static/media/arrow-right.svg": "/talent-sync/static/media/arrow-right.c569736f10e9de3f470d022af9493714.svg",
     "static/media/arrow-left.svg": "/talent-sync/static/media/arrow-left.3fb02f26a1bddcc21a26ba63df3043a1.svg",
-    "main.a6280513.css.map": "/talent-sync/static/css/main.a6280513.css.map",
+    "main.7ecfdab7.css.map": "/talent-sync/static/css/main.7ecfdab7.css.map",
     "main.11b077d2.js.map": "/talent-sync/static/js/main.11b077d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6280513.css",
+    "static/css/main.7ecfdab7.css",
     "static/js/main.11b077d2.js"
   ]
 }
