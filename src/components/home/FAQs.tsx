@@ -48,10 +48,10 @@ const FAQs = () => {
       <ul className={classes.Second}>
         {faq.map((item, index) => (
           <li key={index}>
-            <label htmlFor={item.id}></label>
             <input type="checkbox" name="myAccordion" id={item.id} />
             <h5>{item.q}</h5>
             <p>{item.a}</p>
+            <label htmlFor={item.id}></label>
           </li>
         ))}
       </ul>
